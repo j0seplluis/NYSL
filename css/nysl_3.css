@@ -78,7 +78,7 @@ ul {
 /*header*/
 
 header {
-    background-image: url(img/soccer-field.jpg);
+    background-image: url(../img/soccer-field.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px;
@@ -92,7 +92,6 @@ h1 {
     color: white;
     left: 10%;
     padding: 0px;
-    background-image: url(/img/);
     position: absolute;
     top: 60px;
     font-size: 35px;
