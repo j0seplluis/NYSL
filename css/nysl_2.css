@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif; 
+    background-color: #f2f2f2;
+}
+
+header {
+    background-image:url(/img/design2_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 35px;
+    height: 200px;
+}
+
+h1{
+    font-size: 25px;
+    margin: 0px;  
+}
+
+h2{
+    font-size: 30px;
+    color:black;
+    margin-top:169px;
+    border: solid;
+    border-width:thin;
+    width: auto;
+    border-color: black;
+    Padding: 0px;
+    text-align: center;
+    top:300px;
+}
+    
+li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 150px;
+    position:absolute;
+    top: 265px;
+    left: 30px;
+}
+
+.main{
+    position:absolute;
+    left:250px;
+    margin-top: 70px;
+    margin-left: 35px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.tab{
+    margin-left: 35px;
+}
+
+nav {
+    position: absolute; 
+    top: 0px;
+    right:40px;
+    
+}
+
+.button{
+    background-color: lightgray;
+    border: solid;
+    border-color: black;
+    height: 19px; 
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:darkblue;
+}
+
+.button:hover{
+    background-color:white;
+}
+
+footer{
+
+    position:fixed;
+    width: 100%;
+    bottom:0px;
+    height: 45px;
+}
+
+footer p{
+    text-align: center;
+   
+}
+
+.bottom{
+    margin-bottom: 150px;
+}

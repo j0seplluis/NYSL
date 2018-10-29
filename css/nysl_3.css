@@ -1,0 +1,286 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #e6ffe6;
+}
+
+
+/*format style*/
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.rules {
+    text-transform: uppercase;
+}
+
+
+.sentence1 {
+    float: left;
+}
+
+.sentence2 {
+    float: right;
+}
+
+.interline {
+    margin-bottom: 30px;
+}
+
+.interline1 {
+    margin-bottom: 15px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.list{
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+ul {
+    text-align: justify;
+    margin: 10px 0px 0px 40px;
+}
+
+.top{
+    margin-top: 10px;
+}
+
+.main {
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tab {
+    margin-left: 35px;
+}
+
+.bottom {
+    margin-bottom: 150px;
+}
+
+/*format style*/
+
+
+/*header*/
+
+header {
+    background-image: url(/img/soccer-field.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    left: 10%;
+    padding: 0px;
+    background-image: url(/img/);
+    position: absolute;
+    top: 60px;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px #033949;
+}
+
+h2 {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    background-color: #033949;
+    margin: 0px;
+    padding: 4px 0px 0px 0px;
+    height: 35px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px #a3ff15;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/*header*/
+
+
+/*footer*/
+footer {
+    background-color: #033949;
+    width: 100%;
+    bottom: 0px;
+    height: 45px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+footer p {
+    color: white;
+}
+
+/*footer*/
+
+
+/*logo*/
+
+.logo {
+    width: 120px;
+    position: absolute;
+    right: 50px;
+    top: 205px;
+    animation-name: rotary;
+    transition-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.logo:hover{
+        transform: rotateY(360deg);
+}
+
+/*logo*/
+
+
+/*nav*/
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: #033949;
+    position: absolute;
+    top: 0px;
+    padding: 0px 0px 4px 0px; 
+}
+
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0px 10px 0px 10px;
+    border-radius: 8px;
+}
+
+li a {
+    text-shadow: 1px 1px 0px #033949;
+}
+
+.nav {
+    color: white;
+    text-decoration: none
+}
+
+.button {
+    border: none;
+    background-color: #00b33c;
+    padding: 3px;
+}
+
+.button:hover {
+    background-color: greenyellow;
+}
+
+/*nav*/
+
+
+/*table*/
+
+.th {
+    background-color: #033949;
+    color: white;
+    padding: 2px 2px 2px 2px;
+}
+
+table {
+    table-layout: fixed;
+    width: 700px;
+}
+
+.table1 {
+    margin-bottom: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+.L{
+    text-align: left;
+}
+
+tr:hover {
+    background-color: azure
+}
+
+.map{
+    width: 200px;
+    height: 200px;
+    transition: .2s;
+}
+
+.map:hover{
+    transform: scale(2.5);
+}
+
+.click:hover{
+    cursor:pointer;
+}
+
+/*table*/
+
+
+/* Flexbox */
+
+.container{
+    display:flex;
+    flex-direction:column;
+}
+
+.box_1{
+    display: flex;
+}
+
+.box_2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.form_row{
+    display: flex;
+    flex-grow: 1;
+}
+
+.form_row input {
+    flex-grow: 1;
+}
+
+.container1{
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.a{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
