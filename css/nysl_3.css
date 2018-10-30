@@ -23,12 +23,11 @@ body {
     text-transform: uppercase;
 }
 
-
-.sentence1 {
+.float_left {
     float: left;
 }
 
-.sentence2 {
+.float_right {
     float: right;
 }
 
@@ -72,6 +71,12 @@ ul {
     margin-bottom: 150px;
 }
 
+.top_150{
+    margin-top: 150px;
+}
+.top_280{
+    margin-top: 280px;
+}
 /*format style*/
 
 
@@ -207,7 +212,8 @@ li a {
 
 table {
     table-layout: fixed;
-    width: 700px;
+    width: 80%;
+    margin: auto;
 }
 
 .table1 {
